@@ -1,0 +1,20 @@
+//html, body {}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maps {
+    width: calc((100% - 20px)/2); 
+    height: 50%;
+    margin: 5px;
+    padding: 0; 
+    overflow: hidden;
+    border: 3px solid grey;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.maps:focus {
+    border: 3px solid red;
+}
